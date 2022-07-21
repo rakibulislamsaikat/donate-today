@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.top-sec-div{
+    text-align: center;
+    color: white;
+    
+
+}
+.top-sec{
+    padding: 10%;
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-sec-div h1{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 40px;
+    
+}
+.donate-now{
+    color: white;
+    padding: 15px 25px;
+    background-color:rgb(235, 106, 59);
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
