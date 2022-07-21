@@ -1,10 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
-    padding: 0px;
+    text-transform: capitalize;
+    background-color: white;
 }
 .top-sec{
-    padding: 10%;
+    padding: 15%;
     background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,9 +30,15 @@ body{
     padding: 15px 25px;
     background-color:rgb(235, 106, 59);
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 10px;
     text-decoration: none;
     font-weight: 700;
     font-size: 20px;
+}
+.second-sec{
+
+}
+.second-sec-div{
+    text-align: center;
 }
