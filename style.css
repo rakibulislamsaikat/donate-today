@@ -42,9 +42,9 @@ body{
     padding: 5%;
     text-align: center;
 }
-.second-sec h1{
+.donate-head{
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .ul-items{
@@ -82,30 +82,48 @@ hr{
     
 }
 .sec3-main-div{
-    padding:4% 10%;
     display: flex; 
-    
+    padding: 5% 7%;
 }
 .food{
     background-color: rgba(175, 204, 214, 0.357);
     text-align: left;
-    padding:  15px;
+    padding: 60px 25px;
     margin: 10px;
     border-radius: 2px;
+    width: 30%;
+
 
 }
 .shelter{
     background-color: rgba(246, 218, 227, 0.704);
     text-align: left;
-    padding:  15px;
+    padding: 60px 25px;
     margin: 10px;
     border-radius: 2px;
+    width:  30%;
     
 }
 .education{
     background-color: rgba(239, 236, 211, 0.621) ;
     text-align: left;
-    padding: 15px;
+    padding: 60px 25px;
     margin: 10px;
     border-radius: 2px;
+    width:  30%;
+
+}
+
+.common-sec{
+    display: flex;
+    text-align: left;
+    
+}
+.common-sec-divs{
+    width: 40%;
+    padding: 5% ;
+}
+.common-sec-divs img{
+    width: 100%;
+    border-radius: 10px;
 }
