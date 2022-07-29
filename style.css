@@ -150,14 +150,36 @@ hr{
     
 }
 #email{
-    padding: 15px 20px;
-    background-color: aliceblue;
-    border: 0px;
-    margin-right: 0px;
+    padding: 12px 40px 12px 10px;
+    background-color: rgba(195, 208, 220, 0.684);
+    border: none;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(95, 103, 110, 0.684);
+    
 }
-#button{
-    padding: 15px 35px;
-    background-color: orangered;
-    border: 0px;
-    margin-left: 0px;
+#subscribe{
+    padding: 12px 35px;
+    background-color: rgb(249, 97, 41);
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.footer{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+
+}
+.footer h1{
+    color: orangered;
+    font-style: italic;
+
+}
+.footer p{
+    color: aliceblue;
+    text-transform: lowercase;
 }
