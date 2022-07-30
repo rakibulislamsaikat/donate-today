@@ -4,6 +4,8 @@ body{
     font-family: 'Rubik', sans-serif;
     text-transform: capitalize;
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 .top-sec{
     padding: 5%;
@@ -49,32 +51,22 @@ body{
     font-size: 40px;
 }
 
-.ul-items{
-    list-style-type: none;
+.amount-div{
+    display: flex;
     text-align: center;
-    
 }
-
-
-.li-items{
-    display: inline-block;
-    
-    padding: 50px;
-    background-color: gainsboro;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 25px;
+.amounts{
+    max-width: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 40px;
     margin: 10px;
-    
-    
-   
+    text-align: center;
+    background-color: rgb(231, 230, 230);
+    display: inline-block;
+    text-align: center;
 }
-.li-items:hover{
-    border: 2px solid orangered;
-    border-radius: 5px;
-    background-color: rgb(255, 210, 210);
-    color: orangered;
-}
+
 .special-p{
     color: darkgray;
 }
