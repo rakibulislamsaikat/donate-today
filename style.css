@@ -52,19 +52,25 @@ body{
 }
 
 .amount-div{
-    display: flex;
-    text-align: center;
+  text-align: center;
+  width: 100%;
+  padding: 3% 0%;
 }
+
 .amounts{
     max-width: 50px;
-    font-size: 30px;
-    font-weight: 700;
-    padding: 40px;
-    margin: 10px;
-    text-align: center;
-    background-color: rgb(231, 230, 230);
+    font-size: 20px;
+    font-weight: bold;
     display: inline-block;
-    text-align: center;
+    margin: 10px;
+    padding: 50px;
+    background-color: rgb(231, 230, 230);
+    
+}
+.amounts:hover {
+    background-color: rgb(250, 214, 201);
+    border: 2px solid orangered;
+
 }
 
 .special-p{
